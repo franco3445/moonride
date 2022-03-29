@@ -1,0 +1,136 @@
+.Moonride {
+  background: black;
+  float: left;
+  text-align: center;
+  width: 40%;
+}
+
+.MR-Header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.MR-Title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+.MR-Subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6E6E6E;
+  width: 100%;
+}
+
+.GridItem {
+  padding: 10px;
+}
+
+.InputContainer {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100%;
+}
+
+.InputTitle {
+  justify-self: left;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #6e6e6e;
+}
+
+.InputIcon {
+  grid-column-start: 1;
+  border-radius: 10px 0 0 10px;
+  background-color: #181a1b;
+}
+
+.InputForm {
+  grid-column-start: 2;
+  grid-column-end: 11;
+  border: 1px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 0 10px 10px 0;
+  background-color: #181a1b;
+}
+
+.IncrementContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.IndividualIncrementer {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  padding-left: 5%;
+}
+
+.IncrementBackground {
+  background-color: #181a1b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Increment {
+  border-radius: 50px;
+  border: 0;
+  margin: 1px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.Minus {
+  float: left;
+  background-color: #121414;
+  font-size: 20px;
+}
+
+.Plus {
+  float: right;
+  background-color: grey;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Submit {
+  border-radius: 15px;
+  border: 0px;
+  padding: 10px;
+  width: 30%;
+  background-color: #6684F2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Background {
+  max-width: 150%;
+  max-height: 120%;
+  bottom: 0;
+  left: 40%;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -5;
+}
