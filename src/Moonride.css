@@ -29,6 +29,7 @@
   line-height: 18px;
   color: #6E6E6E;
   width: 100%;
+  opacity: 70%;
 }
 
 .GridItem {
@@ -45,11 +46,11 @@
   justify-self: left;
   grid-column-start: 1;
   grid-column-end: 5;
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   color: #6e6e6e;
+  opacity: 70%;
 }
 
 .InputIcon {
@@ -62,7 +63,6 @@
   grid-column-start: 2;
   grid-column-end: 11;
   border: 1px;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
